@@ -11,12 +11,9 @@
 AeroDial opens a customisable radial menu wherever your cursor is, triggered by any key or mouse button, letting you launch apps, fire key combos, control media, paste clipboard snippets, and navigate nested submenus without touching your taskbar. It works on top of any application including fullscreen games, across any number of monitors at any DPI scale.
 
 ---
+## Screenshots
 
-<!-- Screenshot placeholder — replace with actual screenshot before publishing -->
-<!-- ![AeroDial overlay screenshot](docs/screenshot-overlay.png) -->
-
-<!-- GIF placeholder — replace with a short screen recording before publishing -->
-<!-- ![AeroDial demo GIF](docs/demo.gif) -->
+![Overlay](Screenshot/themes.png)
 
 ---
 
