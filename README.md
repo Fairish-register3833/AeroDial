@@ -13,7 +13,7 @@ AeroDial opens a customisable radial menu wherever your cursor is, triggered by 
 ---
 ## Screenshots
 
-![Overlay](Screenshot/themes.png)
+![Overlay](Screenshot/Themes.png)
 
 ---
 
