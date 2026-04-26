@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Release publish settings ─────────────────────────────────────────────
+       PublishSingleFile is intentionally omitted: WinUI 3 native DLLs
+       (Microsoft.UI.Xaml.dll, SkiaSharp native) cannot be bundled into the
+       managed exe. The output is always a folder; zip it for distribution.
+       TrimMode=partial is safe; full trim breaks WinUI 3 XAML reflection.   -->
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <PublishTrimmed>true</PublishTrimmed>
+    <TrimMode>partial</TrimMode>
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows10.0.26100.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
+    <RootNamespace>AeroDial</RootNamespace>
+    <ApplicationIcon>Assets\aerodial.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Platforms>x64</Platforms>
+    <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+
+    <UseWinUI>true</UseWinUI>
+    <WindowsPackageType>None</WindowsPackageType>
+    <EnableMsixTooling>false</EnableMsixTooling>
+    <DisableMsvcVersionCheck>true</DisableMsvcVersionCheck>
+    <!-- Self-contained: bundles WinUI native DLLs, no runtime registration needed -->
+    <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+    <SelfContained>true</SelfContained>
+    <!-- Suppress auto-generated Program/Main so ours is used -->
+    <DefineConstants>DISABLE_XAML_GENERATED_MAIN</DefineConstants>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AssemblyName>AeroDial</AssemblyName>
+    <Version>1.0.0</Version>
+    <Company>3M Design Solutions</Company>
+    <Authors>Muhtasim Mahbub</Authors>
+    <Copyright>Copyright © 2025 Muhtasim Mahbub | 3M Design Solutions</Copyright>
+    <Description>AeroDial — A radial launcher overlay for Windows</Description>
+    <Optimize Condition="'$(Configuration)'=='Release'">true</Optimize>
+    <!-- Strip satellite assemblies for all languages except English.
+         Removes zh-TW, ur-PK, fr-FR, etc. from publish output (~30-50 MB saved). -->
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.260317003" />
+    <PackageReference Include="SkiaSharp" Version="2.88.8" />
+    <PackageReference Include="SkiaSharp.Views.WinUI" Version="2.88.8" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Win32" Version="2.88.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="themes\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+</Project>

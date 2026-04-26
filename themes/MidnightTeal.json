@@ -1,0 +1,21 @@
+{
+  "name": "Midnight Teal",
+  "description": "Deep dark green-teal with a crisp teal accent.",
+  "dimColor": "#55000D0D",
+  "sliceFill": "#E60D2224",
+  "sliceFillHover": "#E6102A2C",
+  "sliceStroke": "#221D9E75",
+  "sliceStrokeHover": "#CC1D9E75",
+  "sliceStrokeWidth": 0.8,
+  "centerFill": "#E6071418",
+  "centerStroke": "#221A3A3E",
+  "iconTint": "#BB9FE1CB",
+  "iconTintHover": "#FF9FE1CB",
+  "labelColor": "#999FE1CB",
+  "labelColorHover": "#FF9FE1CB",
+  "labelFontSize": 11.0,
+  "labelFontFamily": "Segoe UI Variable",
+  "breadcrumbFill": "#CC091C1E",
+  "breadcrumbText": "#999FE1CB",
+  "accentColor": "#FF1D9E75"
+}

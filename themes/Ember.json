@@ -1,0 +1,21 @@
+{
+  "name": "Ember",
+  "description": "Dark warm tones with a glowing orange accent.",
+  "dimColor": "#55100800",
+  "sliceFill": "#E61F120A",
+  "sliceFillHover": "#E6301A08",
+  "sliceStroke": "#333A1A08",
+  "sliceStrokeHover": "#CCE8593C",
+  "sliceStrokeWidth": 0.8,
+  "centerFill": "#E6130B04",
+  "centerStroke": "#332A1505",
+  "iconTint": "#BBF5A87A",
+  "iconTintHover": "#FFF5A87A",
+  "labelColor": "#99F5A87A",
+  "labelColorHover": "#FFF5A87A",
+  "labelFontSize": 11.0,
+  "labelFontFamily": "Segoe UI Variable",
+  "breadcrumbFill": "#CC180E06",
+  "breadcrumbText": "#99F5A87A",
+  "accentColor": "#FFE8593C"
+}

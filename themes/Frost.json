@@ -1,0 +1,21 @@
+{
+  "name": "Frost",
+  "description": "Light frosted-glass look. Works great on bright desktops.",
+  "dimColor": "#22000000",
+  "sliceFill": "#DDFAFCFF",
+  "sliceFillHover": "#EEE8F4FF",
+  "sliceStroke": "#5564B4F0",
+  "sliceStrokeHover": "#BB378ADD",
+  "sliceStrokeWidth": 0.8,
+  "centerFill": "#EEFFFFFF",
+  "centerStroke": "#4464B4F0",
+  "iconTint": "#BB185FA5",
+  "iconTintHover": "#FF185FA5",
+  "labelColor": "#BB185FA5",
+  "labelColorHover": "#FF042C53",
+  "labelFontSize": 11.0,
+  "labelFontFamily": "Segoe UI Variable",
+  "breadcrumbFill": "#CCF0F8FF",
+  "breadcrumbText": "#BB185FA5",
+  "accentColor": "#FF378ADD"
+}

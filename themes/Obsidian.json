@@ -1,0 +1,21 @@
+{
+  "name": "Obsidian",
+  "description": "Dark background with purple accent — the default AeroDial look.",
+  "dimColor": "#55000000",
+  "sliceFill": "#E61A1A2E",
+  "sliceFillHover": "#E6252540",
+  "sliceStroke": "#33FFFFFF",
+  "sliceStrokeHover": "#CC7C6EF7",
+  "sliceStrokeWidth": 0.8,
+  "centerFill": "#E6111122",
+  "centerStroke": "#33FFFFFF",
+  "iconTint": "#BBFFFFFF",
+  "iconTintHover": "#FFFFFFFF",
+  "labelColor": "#99FFFFFF",
+  "labelColorHover": "#FFFFFFFF",
+  "labelFontSize": 11.0,
+  "labelFontFamily": "Segoe UI Variable",
+  "breadcrumbFill": "#CC111122",
+  "breadcrumbText": "#99FFFFFF",
+  "accentColor": "#FF7C6EF7"
+}

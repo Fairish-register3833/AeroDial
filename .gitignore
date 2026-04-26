@@ -1,0 +1,70 @@
+# AeroDial .gitignore
+
+# Build output
+bin/
+obj/
+out/
+publish/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+# Publish profiles contain machine-specific output paths (PublishDir) — use dotnet publish directly
+*.pubxml
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+project.assets.json
+artifacts/
+.nuget/
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# User-specific config (never commit personal settings)
+src/AeroDial/bin/
+src/AeroDial/obj/
+
+# OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+ehthumbs.db
+
+# Logs and developer captures
+*.log
+captured_defaults.json
+
+# Secrets / code signing
+*.pfx
+*.p12
+*.snk
+
+# Release archives (upload to GitHub Releases, not the repo)
+*.zip
+*.7z
+*.tar.gz
+*.rar
+
+# Temp / scratch files
+*.tmp
+*.bak
+*.swp
+*~

@@ -1,0 +1,21 @@
+{
+  "name": "Chalk",
+  "description": "Clean, minimal light theme with neutral tones.",
+  "dimColor": "#18000000",
+  "sliceFill": "#EEF0EDE8",
+  "sliceFillHover": "#EEE2DDD5",
+  "sliceStroke": "#44000000",
+  "sliceStrokeHover": "#884A4A4A",
+  "sliceStrokeWidth": 0.7,
+  "centerFill": "#EEF5F3EF",
+  "centerStroke": "#33000000",
+  "iconTint": "#AA2C2C2A",
+  "iconTintHover": "#FF2C2C2A",
+  "labelColor": "#885F5E5A",
+  "labelColorHover": "#FF2C2C2A",
+  "labelFontSize": 11.0,
+  "labelFontFamily": "Segoe UI Variable",
+  "breadcrumbFill": "#CCE8E5DF",
+  "breadcrumbText": "#885F5E5A",
+  "accentColor": "#FF5F5E5A"
+}

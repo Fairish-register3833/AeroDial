@@ -1,0 +1,21 @@
+{
+  "name": "Neon",
+  "description": "Near-black with a vivid pink/magenta accent.",
+  "dimColor": "#66000000",
+  "sliceFill": "#E60A0A14",
+  "sliceFillHover": "#E6140A1A",
+  "sliceStroke": "#221A1A30",
+  "sliceStrokeHover": "#CCD4537E",
+  "sliceStrokeWidth": 0.8,
+  "centerFill": "#E6080810",
+  "centerStroke": "#221A1A30",
+  "iconTint": "#BBED93B1",
+  "iconTintHover": "#FFED93B1",
+  "labelColor": "#99ED93B1",
+  "labelColorHover": "#FFED93B1",
+  "labelFontSize": 11.0,
+  "labelFontFamily": "Segoe UI Variable",
+  "breadcrumbFill": "#CC0A0A14",
+  "breadcrumbText": "#99ED93B1",
+  "accentColor": "#FFD4537E"
+}
