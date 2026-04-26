@@ -17,6 +17,16 @@ AeroDial opens a customisable radial menu wherever your cursor is, triggered by 
 
 ---
 
+## Download
+
+**[⬇ Download AeroDial v1.0.0](https://github.com/mmatul06/AeroDial/releases/latest)**
+
+Download and run `AeroDial_v1.0.0.exe`. No installer required.
+
+AeroDial starts silently in the system tray. Double Click on System Tray icon to open the Settings window.
+
+---
+
 ## Features
 
 ### Trigger
